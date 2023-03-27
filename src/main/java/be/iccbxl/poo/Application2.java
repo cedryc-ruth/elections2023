@@ -44,26 +44,9 @@ public class Application2 {
 			listes.add(new ListeElectorale(id, nom, voix));
 		}
 		
-	/*	nbListes = 7;
-		nbSieges  = 6;
-				
-		ListeElectorale l1 = new ListeElectorale(1, "A", 32000);
-		ListeElectorale l2 = new ListeElectorale(2, "B", 25000);
-		ListeElectorale l3 = new ListeElectorale(3, "C", 16000);
-		ListeElectorale l4 = new ListeElectorale(4, "D", 12000);
-		ListeElectorale l5 = new ListeElectorale(5, "E", 8000);
-		ListeElectorale l6 = new ListeElectorale(6, "F", 4500);
-		ListeElectorale l7 = new ListeElectorale(7, "G", 2500);
-		
-		listes.add(l1);
-		listes.add(l2);
-		listes.add(l3);
-		listes.add(l4);
-		listes.add(l5);
-		listes.add(l6);
-		listes.add(l7);*/
-		
 		//=== Traitement des données ===========================
+		//Calcul du seuil électoral
+		
 		/*
 		l6.setElimine(true);
 		l7.setElimine(true);
